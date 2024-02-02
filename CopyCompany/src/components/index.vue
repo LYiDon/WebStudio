@@ -51,8 +51,6 @@ export default {
     flex-direction: column;
     width: 750px;
     height: 100vh;
-    margin: 0 auto;
-    padding: 20;
     background-color: rebeccapurple;
 }
 
