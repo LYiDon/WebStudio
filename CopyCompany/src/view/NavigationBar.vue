@@ -25,7 +25,10 @@ const items = ref([
 
 </script>
 
-<style scoped>
+<style>
+@import "normalize.css/normalize.css";
+
+
 .horizontalList {
     align-content: center;
     height: 75px;
