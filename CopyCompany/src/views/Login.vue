@@ -1,14 +1,12 @@
-<!-- 根组件 -->
+<!-- 登录 -->
 <template>
-  <router-view class="App-root" v-slot="{ Component }">
-    <keep-alive>
-      <component :is="Component"></component>
-    </keep-alive>
-  </router-view>
+  <div class="Login-root">
+    Login
+  </div>
 </template>
 <script>
   export default {
-    name: 'App',
+    name: 'Login',
   };
 </script>
 <script setup>
@@ -29,9 +27,5 @@
   });
 </script>
 <style scoped lang="scss">
-  .App-root{
-    // 移动端使用 vh 会被浏览器组件影响超出可视区，改成用 100%，并在全局样式中设置 body 等元素 100% 配合使用
-    width: 100%; height: 100%;
-    display: flex;flex-direction: column;
-  }
+  .Login-root{}
 </style>

@@ -1,14 +1,15 @@
-<!-- 根组件 -->
+<!-- 公司 -->
 <template>
-  <router-view class="App-root" v-slot="{ Component }">
-    <keep-alive>
-      <component :is="Component"></component>
-    </keep-alive>
-  </router-view>
+  <div class="Company-root">
+    <H5Header></H5Header>
+    <H5Main>
+    </H5Main>
+    <H5Footer></H5Footer>
+  </div>
 </template>
 <script>
   export default {
-    name: 'App',
+    name: 'Company',
   };
 </script>
 <script setup>
@@ -29,9 +30,5 @@
   });
 </script>
 <style scoped lang="scss">
-  .App-root{
-    // 移动端使用 vh 会被浏览器组件影响超出可视区，改成用 100%，并在全局样式中设置 body 等元素 100% 配合使用
-    width: 100%; height: 100%;
-    display: flex;flex-direction: column;
-  }
+  .Company-root{}
 </style>
