@@ -9,7 +9,7 @@
 <script setup>
 import { ref, defineProps,defineEmits } from "vue";
 
-const title = defineProps({
+const props = defineProps({
     title:String
 });
 

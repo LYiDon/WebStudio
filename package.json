@@ -1,6 +1,5 @@
 {
-  "dependencies": {
-    "normalize.css": "^8.0.1",
-    "vue-router": "^4.2.5"
+  "scripts": {
+    "refresh": "cd CopyCompany && npm install"
   }
 }
